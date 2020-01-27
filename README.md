@@ -1,6 +1,8 @@
 # Jaeger .NET example
 Example of .NET applications distributed tracing
 
+![picture alt](https://github.com/fsnader/jaeger-dotnet-example/blob/master/jaeger-example.png)
+
 *Prerequisites*:
 - Docker
 - .NET Core 3
@@ -22,6 +24,7 @@ $ docker run -d --name jaeger \
  ```
 
 2. Jaeger will be running in http://localhost:16686/
+
 3. Start the two API's in the CustomerApi solution
 4. The Customers API will be running in http://localhost:5000 and the Addresses API will be running in http://localhost:5002
 5. Send HTTP requests to the customers API and see the requests being traced in Jaeger
