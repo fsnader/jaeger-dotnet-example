@@ -33,13 +33,9 @@ $ docker run -d --name jaeger \
 ```
 POST http://localhost:5000/api/customers/
 {
-    "id": 1,
-    "name": "Joao",
-    "zipCode": "1234",
-    "street": "Sergipe Street",
-    "city": "Belo Horizonte",
-    "country": "Brazil",
-    "number": 1440
+	"id": 8,
+	"name": "Random guy",
+	"zipCode": "30313-22"
 }
 ```
 Obs.: Requests can also be found in Jaeger .NET Example.postman_collection.json postman collection
