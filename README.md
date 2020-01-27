@@ -6,7 +6,7 @@ Example of .NET applications distributed tracing
 - .NET Core 3
 
 * How to Run*
-1 - Create a All-in-one instance of Jaeger in Docker, running the following command:
+1. Create a All-in-one instance of Jaeger in Docker, running the following command:
 
 ```
 $ docker run -d --name jaeger \
@@ -21,11 +21,10 @@ $ docker run -d --name jaeger \
   jaegertracing/all-in-one:1.16
  ```
 
-2 - Jaeger will be running in http://localhost:16686/
-
-3 - Start the two API's in the CustomerApi solution
-4 - The Customers API will be running in http://localhost:5000 and the Addresses API will be running in http://localhost:5002
-5 - Send HTTP requests to the customers API and see the requests being traced in Jaeger
+2. Jaeger will be running in http://localhost:16686/
+3. Start the two API's in the CustomerApi solution
+4. The Customers API will be running in http://localhost:5000 and the Addresses API will be running in http://localhost:5002
+5. Send HTTP requests to the customers API and see the requests being traced in Jaeger
 `GET http://localhost:5000/api/customers/`
 `GET http://localhost:5000/api/customers/1`
 ```
@@ -40,3 +39,4 @@ POST http://localhost:5000/api/customers/
     "number": 1440
 }
 ```
+Obs.: Requests can also be found in Jaeger .NET Example.postman_collection.json postman collection
