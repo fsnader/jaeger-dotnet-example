@@ -3,11 +3,11 @@ Example of .NET applications distributed tracing
 
 ![picture alt](https://github.com/fsnader/jaeger-dotnet-example/blob/master/jaeger-example.png)
 
-*Prerequisites*:
-- Docker
-- .NET Core 3
+## Prerequisites:
+1. Docker
+2. .NET Core 3
 
-* How to Run*
+## How to Run
 1. Create a All-in-one instance of Jaeger in Docker, running the following command:
 
 ```
